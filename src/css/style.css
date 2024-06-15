@@ -1,0 +1,90 @@
+html{
+    background-color: var(--secondary-color);
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    flex-direction: column;
+}
+
+
+timer-player-component{
+    --timer-component-part-color: var(--neutral-color);
+    --timer-component-part-padding: 10px;
+    --timer-component-part-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    --timer-component-part-border-radius: 5px;
+    --timer-component-part-join-padding: 10px;
+    --timer-player-component-color: var(--neutral-light-color);
+    --timer-player-component-part-color: var(--neutral-color);
+    --timer-player-component-button-padding: 5px 30px;
+    --timer-player-component-button-margin: 5px 10px;
+    --timer-player-component-button-border-radius: 5px;
+    --timer-player-component-play-color: var(--primary-lightest-color);
+    --timer-player-component-play-backgroud-color: var(--primary-color);
+    --timer-player-component-actions-margin:20px 0 0 0;
+    --timer-player-component-status-color: var(--info-color);
+    --timer-player-component-status-font-size: 1.5rem;
+    --timer-player-component-status-margin: 0 0 20px 0;
+    
+    color: var(--neutral-light-color);
+    background-color: var(--primary-lightest-color);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.6);
+    padding: 20px;   
+}
+
+.time-part {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 5px 5px rgba(1,1, 1, 0.1);
+}
+    
+.tiempo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px 30px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--primary-lightest-color);
+    color: var(--text-darkest-color);
+    cursor: pointer;
+    font: inherit;
+}
+.play {
+    background-color: var(--primary-color);
+    color: var(--primary-lightest-color);
+}
+.save {
+    margin: auto;
+    margin-top: 30px;
+    color: var(--primary-lightest-color);
+    background-color: var(--text-darkest-color);
+    display: block; 
+}
+.start {
+    margin: auto;
+    margin-top: 30px;
+    display: block; 
+    text-align: center;
+}
+.smsfinish {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--info-color);
+    margin: 0 0 20px 0;
+    display: none;
+}
+.startInput {
+    border: none;
+    border-bottom: 2px solid var(--text-darkest-color);
+    text-align: center;    
+}
